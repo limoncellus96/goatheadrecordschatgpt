@@ -45,5 +45,8 @@ outputs = gr.outputs.Textbox(label="Reply")
 
 gr.Interface(fn=chatbot, inputs=inputs, outputs=outputs, title="Goathead Records AI Chatbot",
              description="Ask me anything you want!",
-             theme="black", layout="vertical", 
-             font_family="Helvetica Neue", font_size="18px").launch(share=True)
+             layout="vertical", font_family="Helvetica Neue", font_size="18px").launch(share=True)
+
+
+
+
